@@ -1,1 +1,1 @@
-### Boilerplate app structure for Quiz App project
+### Wireframed quiz app using boilerplate starter files
