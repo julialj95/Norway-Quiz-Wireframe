@@ -5,24 +5,84 @@ const store = {
   // 5 or more questions are required
   questions: [
     {
-      question: 'What color is broccoli?',
+      question: 'In what year did Norway gain independence from Sweden?',
       answers: [
-        'red',
-        'orange',
-        'pink',
-        'green'
+        '1948',
+        '1905',
+        '1865',
+        '1654'
       ],
-      correctAnswer: 'green'
+      correctAnswer: '1905'
     },
     {
-      question: 'What is the current year?',
+      question: "What is the date of Norway's Independence day?",
       answers: [
-        '1970',
-        '2015',
-        '2019',
-        '2005'
+        'November 3rd',
+        'July 4th',
+        'May 17th',
+        'December 25th'
       ],
-      correctAnswer: '2019'
+      correctAnswer: 'May 17th'
+    },
+    {
+      question: 'How many counties are there in Norway?',
+      answers: [
+        '5',
+        '11',
+        '18',
+        '26'
+      ],
+      correctAnswer: '11'
+    },
+    {
+      question: 'What is the population of Norway?'
+      answers:  [
+        '5 million',
+        '7 million',
+        '18 million',
+        '90 million'
+      ],
+      correctAnswer: '5 million'
+    },
+    {
+      question: 'What is the most populous city in Norway?'
+      answers:  [
+        'Bergen',
+        'Trondheim',
+        'Oslo',
+        'Stavanger'
+      ],
+      correctAnswer: 'Oslo'
+    },
+    {
+      question: 'How many political parties currently hold seats in Norwegian parliament?'
+      answers:  [
+        '2',
+        '5',
+        '9',
+        '18'
+      ],
+      correctAnswer: '9'
+    },
+    {
+      question: 'What is considered Norway’s national dish?'
+      answers:  [
+        'Fiskesuppe (fish soup)',
+        'Tacoer (tacos)',
+        'Fårikål (cabbage and lamb stew)',
+        'Kjøttkaker og potetmos (meatballs and mashed potatoes)'
+      ],
+      correctAnswer: 'Fårikål (cabbage and lamb stew)'
+    },
+    {
+      question: 'Who is the crown prince of Norway?'
+      answers:  [
+        'Prince Frederik and Princess Mary',
+        'Prince Haakon and Princess Mette Marit',
+        'Prince George and Princess Charlotte',
+        'Prince Carl and Princess Sofia'
+      ],
+      correctAnswer: 'Prince Haakon and Princess Mette Marit'
     }
   ],
   quizStarted: false,
